@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7cd74d01-0f61-4395-902f-9e25916ddd39" name="inspiritum">
+        <fileTransfer rootFolder="/var/www/domains" accessType="SFTP" host="192.168.30.62" port="22" sshConfigId="ffbc8d9d-8ff8-4c22-94fe-4fc034b5c57f" sshConfig="a.kalinin@192.168.30.62:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
