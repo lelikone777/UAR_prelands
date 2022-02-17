@@ -201,9 +201,8 @@
         </div>
     </div>
 
-    <a href="{url}"
+    <a href="{url}" onclick="clearTimeout(to)"
        class="button"
-       onclick="clearTimeout(to)"
     >
         Continue
     </a>
