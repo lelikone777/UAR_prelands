@@ -133,22 +133,39 @@
         }
         @media (max-height: 720px) and (orientation: portrait) {
             .content .img {
-                width: 90%;
+                /*width: 90%;*/
             }
         }
         @media (max-height: 667px) and (orientation: portrait) {
             .content .img {
-                width: 64%;
+                width: 96%;
             }
         }
         @media (max-height: 570px) and (orientation: portrait) {
             .content .img {
-                width: 50%;
+                width: 85%;
             }
         }
         @media (max-height: 520px) and (orientation: portrait) {
             .content .img {
-                width: 36%;
+                width: 75%;
+            }
+            .text {
+                margin: 0 auto 3px;
+            }
+            .text p {
+                font-size: 24px;
+                line-height: 28px;
+            }
+            .text span {
+                font-size: 12px;
+                line-height: 15px;
+            }
+            .button {
+                height: 45px;
+                font-size: 28px;
+                line-height: 32px;
+                width: 80%;
             }
         }
         @media (orientation: landscape) and (max-height: 800px) {
@@ -189,10 +206,6 @@
     <div class="footer">
         <p>Terms&Conditions</p>
     </div>
-    <script type="text/javascript">
-        var to = setTimeout(function() {
-            window.location = "{url}"
-        }, 2000);
-    </script>
+
 </body>
 </html>
